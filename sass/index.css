@@ -362,6 +362,41 @@ body {
   line-height: 35px;
 }
 
+.main-seven__one {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #303263;
+  height: 120px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.main-seven__one_title {
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 72px;
+  display: inline-block;
+}
+
+.main-seven__two_title {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.main-seven__button {
+  width: 240px;
+  height: 66px;
+  border-radius: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
 .yellow {
   margin-left: 500px;
   color: #f6ae48;
