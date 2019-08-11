@@ -116,6 +116,7 @@ body {
 
 .main-two__icon {
   margin-top: 15px;
+  height: 60px;
 }
 
 .main-two__block {
@@ -308,6 +309,8 @@ body {
   background: url(../img/main-five__two.png);
   width: 366px;
   height: 315px;
+  margin: 20px;
+  margin-top: 0;
 }
 
 .main-five__two::before {
@@ -332,6 +335,31 @@ body {
   background: #000000;
   opacity: 0.5;
   position: absolute;
+}
+
+.main-six {
+  margin-top: 170px;
+  margin-bottom: 120px;
+}
+
+.main-six__one {
+  align-self: center;
+}
+
+.main-six__one_title {
+  color: #060606;
+  font-family: Tahoma;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.main-six__one_descp {
+  color: #000000;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
 }
 
 .yellow {
