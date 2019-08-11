@@ -518,6 +518,124 @@ body {
   margin-top: 15px;
 }
 
+.footer {
+  background: url(../img/footer.png);
+  height: 566px;
+  background-size: 100%;
+  box-sizing: border-box;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  background: #4C4277;
+  opacity: 0.5;
+  width: 100%;
+  height: 566px;
+  z-index: 0;
+}
+
+.footer-container {
+  padding-top: 100px;
+}
+
+.footer-one__title {
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 72px;
+  z-index: 1;
+}
+
+.footer-one__descp {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  z-index: 1;
+}
+
+.footer-name {
+  border: 4px solid #fff;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  height: 45px;
+  width: 304px;
+  margin-left: 16px;
+  border-right: none;
+  padding-left: 15px;
+}
+
+.footer-sername {
+  border: 4px solid #fff;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  height: 45px;
+  width: 331px;
+  margin-left: 0;
+  padding-left: 15px;
+}
+
+.footer-email {
+  border: 4px solid #fff;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  border-top: none;
+  padding-left: 15px;
+}
+
+.footer-sms {
+  border: 4px solid #fff;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  border-top: none;
+  padding-left: 15px;
+  height: 165px;
+}
+
+.footer-submit {
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  width: 143px;
+  height: 44px;
+  border-radius: 15px;
+  background-color: #f6ae48;
+  border: none;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.footer-two {
+  width: 614px;
+}
+
+.footer-two__descp {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
 .flex {
   display: flex;
 }
@@ -529,6 +647,13 @@ body {
 
 .orange {
   background-color: #f6ae48;
+}
+
+.orange1 {
+  background-color: #f6ae48;
+  height: 110px;
+  position: relative;
+  width: 100%;
 }
 
 .text-write {
